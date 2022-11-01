@@ -13,7 +13,7 @@ else:
     from multiprocessing import Queue
 
 from requests.exceptions import RequestException
-
+from strategy import fund_main
 from CrawlingCore import GetPageByWebWithAnotherProcessAndMultiThreading
 from Parser import ParseDefault
 from FundListProvider import GetFundList, GetFundListFromWeb, GetFundListTest
@@ -148,4 +148,11 @@ if __name__ == '__main__':
         traceback.print_exc()
 
     # 输出总时间
-    print(f'\n爬取总用时{time.time() - start_time} s')
+    print(f'\n爬取用时{time.time() - start_time} s')
+
+    # time.sleep(200)
+    # start_time_filter = time.time()
+    # fund_main.rank()
+    #
+    # print(f'\n筛选用时{time.time() - start_time_filter} s')
+    # print(f'\n总用时{time.time() - start_time} s')
