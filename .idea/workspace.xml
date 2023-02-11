@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b32ab604-6012-4a6d-926b-a779e4f0ce80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/fund_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/fund_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/fund_rank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FundCrawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FundCrawler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlingFund.py" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlingFund.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/fund_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/fund_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/fund_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/fund_rank.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,24 +16,28 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FundCrawler$strategy.coverage" NAME="strategy Coverage Results" MODIFIED="1666414516523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy" />
-    <SUITE FILE_PATH="coverage/FundCrawler$FilterFund.coverage" NAME="FilterFund Coverage Results" MODIFIED="1666413527092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy" />
-    <SUITE FILE_PATH="coverage/FundCrawler$fund_manager.coverage" NAME="fund_manager Coverage Results" MODIFIED="1667267831735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy" />
+    <SUITE FILE_PATH="coverage/FundCrawler$FilterFund.coverage" NAME="FilterFund Coverage Results" MODIFIED="1676092107244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy" />
+    <SUITE FILE_PATH="coverage/FundCrawler$fund_manager.coverage" NAME="fund_manager Coverage Results" MODIFIED="1676087629233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy" />
     <SUITE FILE_PATH="coverage/FundCrawler$CrawlingFund.coverage" NAME="CrawlingFund Coverage Results" MODIFIED="1664422021271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1219660991">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="31" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="py" value="49" />
           <entry key="pyi" value="2" />
           <entry key="txt" value="3" />
@@ -47,7 +45,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="34" />
           <entry key="Python" value="49" />
           <entry key="PythonStub" value="2" />
@@ -56,14 +54,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="57" />
-          <entry key="py" value="4297" />
+          <entry key="md" value="24" />
+          <entry key="py" value="4370" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Markdown" value="24" />
           <entry key="PLAIN_TEXT" value="62" />
-          <entry key="Python" value="4297" />
+          <entry key="Python" value="4370" />
         </counts>
       </usages-collector>
     </session>
@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategy/fund_filter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="440">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -94,28 +94,40 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategy/fund_rank.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="151" column="16" lean-forward="true" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
+            <state relative-caret-position="3040">
+              <caret line="152" column="11" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1666411166648" expanded="true" signature="576:2455" ph="..." />
-                <marker date="1666411166648" expanded="true" signature="1689:1890" ph="..." />
-                <marker date="1666411166648" expanded="true" signature="4637:4759" ph="..." />
+                <marker date="1676087627480" expanded="true" signature="576:2462" ph="..." />
+                <marker date="1676087627480" expanded="true" signature="1696:1897" ph="..." />
+                <marker date="1676087627480" expanded="true" signature="4644:4766" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="205">
+                <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="32" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/strategy/fund_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="60">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
               <folding>
-                <marker date="1666413846485" expanded="true" signature="113:310" ph="..." />
+                <marker date="1676098066950" expanded="true" signature="85:282" ph="..." />
               </folding>
             </state>
           </provider>
@@ -124,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CrawlingFund.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="151" selection-start-line="151" selection-end-line="151" />
+            <state relative-caret-position="126">
+              <caret line="90" column="50" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="50" />
               <folding>
                 <element signature="e#42#51#0" expanded="true" />
               </folding>
@@ -175,6 +187,10 @@
       <find>012186</find>
       <find>create_engine</find>
       <find>filter_rank</find>
+      <find>_fund_list</find>
+      <find>fund</find>
+      <find>fund.csv</find>
+      <find>_filtered_fund_file_path</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -193,9 +209,11 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/strategy/main.py" />
         <option value="$PROJECT_DIR$/strategy/fund_filter.py" />
-        <option value="$PROJECT_DIR$/strategy/fund_rank.py" />
         <option value="$PROJECT_DIR$/strategy/strategy.py" />
         <option value="$PROJECT_DIR$/CrawlingFund.py" />
+        <option value="$PROJECT_DIR$/strategy/fund_rank.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/strategy/fund_main.py" />
       </list>
     </option>
   </component>
@@ -205,7 +223,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="820" />
@@ -225,6 +243,11 @@
             <path>
               <item name="FundCrawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="FundCrawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FundCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FundCrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FundCrawler" type="b2602c69:ProjectViewProjectNode" />
@@ -265,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fund_manager">
+  <component name="RunManager" selected="Python.FilterFund">
     <configuration name="CrawlingFund" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FundCrawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -362,9 +385,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FilterFund" />
         <item itemvalue="Python.fund_manager" />
         <item itemvalue="Python.strategy" />
-        <item itemvalue="Python.FilterFund" />
         <item itemvalue="Python.CrawlingFund" />
       </list>
     </recent_temporary>
@@ -392,10 +415,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="820" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26466382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1988555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -409,7 +432,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32692307" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4107143" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3282967" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -441,6 +464,31 @@
           <url>file://$PROJECT_DIR$/CrawlingFund.py</url>
           <line>80</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strategy/fund_rank.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strategy/fund_rank.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strategy/fund_rank.py</url>
+          <line>154</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strategy/fund_rank.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strategy/fund_rank.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -478,9 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding>
-            <element signature="e#45#61#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,9 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="605">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -505,9 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-464">
           <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="e#45#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,14 +562,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/results/混合型-偏股.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-160" />
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FakeUAGetter.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -646,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/fund_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/strategy/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -661,16 +685,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/results/指数型-股票.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/fund_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <marker date="1666413846485" expanded="true" signature="113:310" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructure.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,23 +698,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CrawlingFund.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        <state relative-caret-position="126">
+          <caret line="90" column="50" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="50" />
           <folding>
             <element signature="e#42#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="205">
+            <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/strategy/fund_rank.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="151" column="16" lean-forward="true" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
+        <state relative-caret-position="3040">
+          <caret line="152" column="11" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1666411166648" expanded="true" signature="576:2455" ph="..." />
-            <marker date="1666411166648" expanded="true" signature="1689:1890" ph="..." />
-            <marker date="1666411166648" expanded="true" signature="4637:4759" ph="..." />
+            <marker date="1676087627480" expanded="true" signature="576:2462" ph="..." />
+            <marker date="1676087627480" expanded="true" signature="1696:1897" ph="..." />
+            <marker date="1676087627480" expanded="true" signature="4644:4766" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/fund_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/fund_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <marker date="1676098066950" expanded="true" signature="85:282" ph="..." />
           </folding>
         </state>
       </provider>

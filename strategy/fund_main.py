@@ -1,8 +1,8 @@
 # -*- coding:UTF-8 -*-
 import time
 
-from strategy import fund_rank
-from strategy import fund_filter
+import fund_rank
+import fund_filter
 
 
 def rank():

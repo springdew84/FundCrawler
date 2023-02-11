@@ -47,3 +47,12 @@
     - 夏普比率
     - 净值 （包括单位、累计和实时估算）
 - 增加能按收益率等初步对基金进行筛选的脚本
+
+-------
+FundCrawler
+cd /Users/dealmoon/WorkSpace/MINE_GIT_PY/FundCrawler
+1.python CrawlingFund.py
+2.python ./strategy/fund_main.py
+
+下载与chrome浏览器对应的chromedriver版本：
+下载地址：http://chromedriver.storage.googleapis.com/index.html

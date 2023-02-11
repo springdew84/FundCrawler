@@ -62,7 +62,7 @@ def rank_and_filter():
     fund_list = get_top_n(fund_list, 0.3, 9)
 
     # 根据基金规模倒序
-    _fund_list = sorted(fund_list, key=lambda k: k[3], reverse=True)
+    _fund_list = sorted(fund_list, key=lambda k: float(k[3]), reverse=True)
 
 
 def get_top_n(fund_list, top_n_percent, key):
