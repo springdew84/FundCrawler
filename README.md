@@ -50,7 +50,7 @@
 
 -------
 FundCrawler
-cd /Users/dealmoon/WorkSpace/MINE_GIT_PY/FundCrawler
+cd /Users/xxxxx/WorkSpace/MINE_GIT_PY/FundCrawler
 1.python CrawlingFund.py
 2.python ./strategy/fund_main.py
 

@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.service import Service
 
 _rank_url = 'https://fund.eastmoney.com/data/fundranking.html#tall;c0;r;szzf;pn10000;' \
       'ddesc;qsd20211014;qed20221014;qdii;zq;gg;gzbd;gzfs;bbzt;sfbb'
-_source_file_path = '/Users/dealmoon/WorkSpace/MINE_GIT_PY/FundCrawler/results/'
+_source_file_path = '/Users/xxxx/WorkSpace/MINE_GIT_PY/FundCrawler/results/'
 _filtered_fund_file_path = 'fund.csv'
 _output_file_path = 'fund-rank.csv'
 _fund_list = []
@@ -96,7 +96,7 @@ def get_fund_rank_data():
     co = webdriver.ChromeOptions()
     # 是否有浏览界面，False：有；True：无
     co.headless = True
-    chrome_service = Service(r'/Users/dealmoon/WorkSpace/MINE_GIT_PY/FundCrawler/strategy/chromedriver')
+    chrome_service = Service(r'/Users/xxxx/WorkSpace/MINE_GIT_PY/FundCrawler/strategy/chromedriver')
     browser = webdriver.Chrome(service=chrome_service, options=co)
     browser.get(_rank_url)
     main_table = browser.find_element(By.ID, 'dbtable')

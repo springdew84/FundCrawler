@@ -6,7 +6,7 @@
 
 import os
 
-_source_file_path = '/Users/dealmoon/WorkSpace/MINE_GIT_PY/FundCrawler/results/'
+_source_file_path = '/Users/xxxx/WorkSpace/MINE_GIT_PY/FundCrawler/results/'
 _output_file_path = 'fund.csv'
 # _fund_file_name = ["指数型-股票", "混合型-平衡", "债券型-可转债", "QDII", "混合型-偏债", "混合型-灵活", "债券型-混合债",
 #                    "债券型-长债", "混合型-偏股", "债券型-中短债", "股票型"]
